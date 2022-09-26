@@ -5,7 +5,9 @@ const cancrom = document.getElementById("cancrom")
 const sifi = document.getElementById("sifilis")
 const hepatB = document.getElementById("hepatB")
 const hepatC = document.getElementById("hepatC")
-const escondidos = {"Oqe": Oqe, "MaisComuns": MaisComuns, "gonoTxt": gonorr, "cancrom": cancrom, "sifi": sifi, "hepaB": hepatB, "hepaC": hepatC}
+const herpes = document.getElementById("herpe")
+const hpv = document.getElementById("hpv")
+const escondidos = {"Oqe": Oqe, "MaisComuns": MaisComuns, "gonoTxt": gonorr, "cancrom": cancrom, "sifi": sifi, "hepaB": hepatB, "hepaC": hepatC, "herpe": herpes, "hpv": hpv}
 function mostrar(obj){
   for(item in escondidos){
     if(item == obj){
