@@ -1,0 +1,87 @@
+*{
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-family: Comic Sans MS;
+  font-size: 1.2rem;
+}
+@media (min-width:320px) and (max-width:520px){
+.oqe h1{
+  border: none;
+  padding: 15px;
+  font-size: 2rem;
+}
+#desc{
+  font-size: 16px;
+  color: #333;
+  border-bottom: 0.1em solid aqua;
+}
+.oqe{
+  border: none;
+  padding: 15px;
+  font-size: 2rem;
+  color: white;
+  background-color: blue;
+  margin-bottom: 15px;
+}
+#msComuns{
+  border: none;
+  padding: 15px;
+  font-size: 2rem;
+  color: white;
+  background-color: orange;
+  margin-bottom: 15px;
+}
+#msComuns h1{
+  border: none;
+  padding: 20px;
+  font-size: 1.75rem;
+  font-size: 1.75rem;
+}
+#msComuns_txt p{
+  font-size: 1.25rem;
+  margin-bottom: 12.5px;
+}
+}
+@media (min-width:521px) and (max-width:9999px){
+#desc{
+  font-size: 1.5em;
+  color: #333;
+  border-bottom: 0.1em solid aqua;
+}
+.oqe{
+  border: none;
+  padding: 30px;
+  color: white;
+  background-color: blue;
+  margin-bottom: 15px;
+}
+.oqe h1{
+  border: none;
+  padding: 30px;
+  font-size: 4em;
+}
+#oqe_txt{
+  font-size: 3em;
+}
+#msComuns{
+  border: none;
+  padding: 30px;
+  font-size: 4rem;
+  color: white;
+  background-color: orange;
+  margin-bottom: 15px;
+}
+#msComuns h1{
+  border: none;
+  padding: 30px;
+  font-size: 4rem;
+}
+#msComuns_txt p{
+  font-size: 3em;
+  margin-bottom: 25px;
+}
+}
+.none{
+  display: none;
+}

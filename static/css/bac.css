@@ -1,0 +1,47 @@
+@media (min-width: 320px) and (max-width: 520px){
+#Bacterias{
+  font-size: 1.75em;
+  background-color: red;
+}
+#Bac_text{
+  font-size: 0.9em;
+  background-color: blue;
+  margin-bottom: 13px;
+}
+#virus{
+  font-size: 1.75em;
+  background-color: gold;
+}
+#v_Text{
+  font-size: 0.9em;
+  background-color: red;
+  margin-bottom: 13px;
+}
+.res{
+  font-size: 0.9rem;
+}
+.sb_mais{
+	color: white;
+}
+}
+@media (min-width: 521px) and (max-width: 9999px){
+#Bacterias{
+  font-size: 2.5em;
+  background-color: red;
+}
+#Bac_text{
+  font-size: 2.5em;
+  background-color: blue;
+  margin-bottom: 26px;
+}
+#virus{
+  font-size: 2.5em;
+  background-color: gold;
+}
+.res{
+  font-size: 1rem;
+}
+.sb_mais{
+        color: white;
+}
+}

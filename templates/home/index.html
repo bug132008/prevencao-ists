@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bac.css')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css')}}">
+  <script defer src="{{ url_for('static', filename='js/index.js')}}"></script>
+  <title>Prevenção as ISTs/HIV-AIDS</title>
+</head>
+<body>
+	<h1 id="desc">Você Já ouviu falar sobre ISTs ou HIV/AIDS?</h1>
+	<div id="oqe"class="oqe">
+	  <h1 onclick="mostrar('Oqe')">Oque é uma IST?</h1>
+	  <div id="oqe_txt" class="none">
+	    IST - Infecção Sexualmente Transmissível - é o nome dado a uma doença que é transmitida pela relação sexual.A transmissão acontece por meio da relação com um parceiro que possui a doença, sem o uso de preservativos;muitas doenças não tem cura, mas possuem tratamento que pode aliviar os sintomas.
+	  </div>
+	</div>
+	<div id="msComuns">
+	  <h1 onclick="mostrar('MaisComuns')" >As ISTs mais Comuns!</h1>
+	  <div id="msComuns_txt" class="none">
+	    <p>As ISTs podem ser dividas pelo tipo de agente causador da doença:</p>
+	    <div id="Bacterias">
+	      Bactérias:
+	    </div>
+	    <h1 id="Bac_text">
+	      <div onclick="mostrar('gonoTxt')"class="gonorreia">Gonorreia</div>
+	      <div id="gonoTxt"class="none res">Gonorreia é uma infecção sexualmente transmissível (IST) causada pela bactéria Neisseria gonorrhoeae, popularmente chamada de gonococo. Ela também pode passar da mãe para o bebê durante o parto.<br>Os sintomas incluem dor ao urinar e secreção anormal do pênis ou da vagina. Os homens podem sentir dor testicular e as mulheres, dor pélvica. Em alguns casos, a gonorreia não tem sintomas.<a href="https://www.google.com/amp/s/m.brasilescola.uol.com.br/amp/doencas/gonorreia.htm" class="sb_mais">Saiba Mais</a></div>
+	    </h1>
+	    <h1 id="Bac_text">
+	      <div onclick="mostrar('cancrom')">Cancro Mole</div>
+	      <div id="cancrom" class="none res">O cancro mole é uma doença sexualmente transmissível que consiste em feridas contagiosas irregulares, avermelhadas, com base mole e fundo purulento. Geralmente são múltiplas, devido à capacidade de autoinoculação. Podem ocorrer, principalmente, nos órgãos sexuais, mas lábios, boca, língua e garganta também podem ser afetados.
+
+Esta doença surge como pequenas feridas com pus. Estas se tornam úmidas, maiores, mais profundas e dolorosas com o passar do tempo. Podem aparecer outras ao redor e aproximadamente duas semanas após a manifestação, íngua na região da virilha, conferindo dor e desconforto.<a href="https://brasilescola.uol.com.br/doencas/cancro-mole.htm" class="sb_mais">Saiba Mais</a></div>
+	    </h1>
+	    <h1 id="Bac_text">
+		<div onclick="mostrar('sifi')">Sífilis</div>
+		<div id="sifilis" class="none res">A sífilis é uma infecção sexualmente transmissível, de evolução lenta e causada por uma bactéria chamada Treponema pallidum. Pode tornar-se bastante grave caso não haja o tratamento adequado, podendo atingir até mesmo o sistema nervoso. Vale destacar que não existe imunidade contra essa infecção, o que significa que uma pessoa pode pegar sífilis quantas vezes for exposta à bactéria.<br>A sífilis é uma doença transmitida, principalmente, por meio da relação sexual desprotegida com uma pessoa que está com a doença. Nesse caso, a transmissão ocorre com maior frequência em pessoas que apresentam a sífilis primária e secundária. Vale salientar que se a ferida da sífilis estiver presente na boca, essa doença pode também ser transmitida pelo beijo, e também, pode ser transmitida na transfusão de sangue.<br><a href="https://www.google.com/amp/s/m.brasilescola.uol.com.br/amp/doencas/sifilis.htm"class="sb_mais">Saiba Mais</a></div>
+	    </h1>
+	    <div id="virus">
+	      Vírus:
+	    </div>
+		<h1 id=v_Text>
+			<div onclick="hepati()">Hepatites B e C</div>
+			<div id="hepatB" class="none res">A hepatite B, causada pelo HBV, é transmitida por meio de:
+
+relações sexuais desprotegidas;
+
+compartilhamento de seringas e agulhas;
+
+procedimentos como hemodiálise;
+
+cirurgias, intervenções odontológicas, aplicação de piercings e outros acessórios sem a devida esterilização do material ou uso de material descartável;
+
+transfusão de sangue contaminado;
+
+transmissão vertical (da mãe para o filho);
+
+acidentes ocupacionais com materiais perfurocortantes.
+
+A doença pode ser prevenida por meio da vacinação contra hepatite B, controle dos bancos de sangue, não compartilhamento de materiais cortantes e uso de preservativos nas relações sexuais. A hepatite B é uma doença grave.</div>
+		<div id="hepatC" class="none res">A hepatite C, causada pelo HCV, pode ser transmitida, principalmente, por meio de:
+
+compartilhamento de agulhas e seringas;
+
+transfusão de sangue contaminado;
+
+problemas em limpeza e desinfecção de instrumentos usados na hemodiálise;
+
+procedimentos em que há contato com sangue e são utilizados instrumentos sem a devida esterilização, como tatuagens, cirurgias, manicures e colocação de piercings;
+
+transplante de órgãos contaminados.
+
+Com menos frequência, o vírus pode ser transmitido em relação sexual e transmissão vertical. Para se prevenir da hepatite C, é importante realizar o controle do sangue e órgãos que serão doados e uso de materiais descartáveis.<br><a href="https://www.google.com/amp/s/m.brasilescola.uol.com.br/amp/doencas/hepatite.htm"class="sb_mais">Saiba Mais</a></div>
+		</h1>
+	  </div>
+	</div>
+</body>
+</html>
