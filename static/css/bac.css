@@ -23,6 +23,12 @@
 .sb_mais{
 	color: white;
 }
+.aidsHiv{
+  font-size: 1.55em;
+  background-color: red;
+  color:white;
+  padding:10px;
+}
 }
 @media (min-width: 521px) and (max-width: 9999px){
 #Bacterias{
@@ -48,5 +54,11 @@
   font-size: 2.5em;
   background-color: red;
   margin-bottom: 26px;
+}
+.aidsHiv{
+  font-size: 2.5rem;
+  background-color: red;
+  color:white;
+  padding:20px;
 }
 }
